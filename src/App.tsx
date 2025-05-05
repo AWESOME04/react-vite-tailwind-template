@@ -1,3 +1,5 @@
+import { MyComponent } from "@/components/MyComponent";
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-200 to-pink-200 flex flex-col items-center justify-center p-6">
@@ -32,6 +34,7 @@ function App() {
         >
           Tailwind CSS Docs
         </a>
+        <MyComponent />
       </div>
     </div>
   );
